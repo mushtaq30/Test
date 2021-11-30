@@ -2,7 +2,6 @@ pipeline {
     agent any
     environment{
         New_Version= 0.001
-        SERVER_CREDENTIALS = credential('server-credentials')
     }
     stages{
         stage('build') {
